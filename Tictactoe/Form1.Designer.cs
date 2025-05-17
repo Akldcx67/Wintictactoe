@@ -8,9 +8,9 @@
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Освободить все используемые ресурсы.
+        /// Free up any resources that are being used.
         /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <param name="disposing">true if the managed resource should be deleted; otherwise false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+        #region Code automatically created by the Windows Form Builder
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for constructor support - do not modify 
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -38,7 +38,7 @@
             this.btnAgain.Name = "btnAgain";
             this.btnAgain.Size = new System.Drawing.Size(151, 67);
             this.btnAgain.TabIndex = 0;
-            this.btnAgain.Text = "начать занова";
+            this.btnAgain.Text = "start over";
             this.btnAgain.UseVisualStyleBackColor = true;
             this.btnAgain.Click += new System.EventHandler(this.btnAgain_Click);
             // 
@@ -48,7 +48,7 @@
             this.btnAnalysis.Name = "btnAnalysis";
             this.btnAnalysis.Size = new System.Drawing.Size(151, 82);
             this.btnAnalysis.TabIndex = 1;
-            this.btnAnalysis.Text = "Анализ";
+            this.btnAnalysis.Text = "Analyses";
             this.btnAnalysis.UseVisualStyleBackColor = true;
             this.btnAnalysis.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -61,8 +61,8 @@
             this.Controls.Add(this.btnAgain);
             this.DoubleBuffered = true;
             this.Name = "Form1";
-            this.Tag = "Анализ";
-            this.Text = "Анализ";
+            this.Tag = "Analyses";
+            this.Text = "Analyses";
             this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
